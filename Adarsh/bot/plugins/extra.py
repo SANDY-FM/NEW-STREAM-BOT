@@ -13,16 +13,16 @@ START_TEXT = """ Your Telegram DC Is : `{}`  """
 @StreamBot.on_message(filters.regex("maintainers😎"))
 async def maintainers(b,m):
     try:
-       await b.send_message(chat_id=m.chat.id,text="HELLO",quote=True)
+       await b.send_message(chat_id=m.chat.id,text="Radhe Radhe ❤️",quote=True)
     except Exception:
                 await b.send_message(
                     chat_id=m.chat.id,
-                    text="I am Coded By [Adarsh Goel](https://github.com/adarsh-goel)",
+                    text="My Lobe/Owner ❤️ Is  [Ashish Sharma](https://t.me/ashishsharmalegend)",
                     
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("Developer💻", url=f"https://github.com/adarsh-goel")
+                                InlineKeyboardButton("Love/Owner ", url=f"https://t.me/ashishsharmalegend")
                             ]
                         ]
                     ),
@@ -33,16 +33,16 @@ async def maintainers(b,m):
 @StreamBot.on_message(filters.regex("follow❤️"))
 async def follow_user(b,m):
     try:
-       await b.send_message(chat_id=m.chat.id,text="HELLO",quote=True)
+       await b.send_message(chat_id=m.chat.id,text="Radhe Radhe ❤️",quote=True)
     except Exception:
                 await b.send_message(
                     chat_id=m.chat.id,
-                    text="<B>HERE'S THE FOLLOW LINK</B>",
+                    text="<B>Here's [My Love Channel ❤️](https://t.me/eliteflix_official)</B>",
                     
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("FOLLOW ME", url=f"https://GITHUB.COM/adarsh-goel")
+                                InlineKeyboardButton("Backup Channel ❤️", url=f"https://t.me/eliteflix_official")
                             ]
                         ]
                     ),
@@ -76,7 +76,7 @@ async def ping(b, m):
     ag = await m.reply_text("....")
     end_t = time.time()
     time_taken_s = (end_t - start_t) * 1000
-    await ag.edit(f"Pong!\n{time_taken_s:.3f} ms")
+    await ag.edit(f"Lobe❤️!\n{time_taken_s:.3f} ms")
     
     
     
