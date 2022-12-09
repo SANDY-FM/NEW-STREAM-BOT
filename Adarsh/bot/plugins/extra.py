@@ -17,7 +17,7 @@ async def maintainers(b,m):
     except Exception:
                 await b.send_message(
                     chat_id=m.chat.id,
-                    text="My Lobe/Owner ❤️ Is  [亗 𝗧𝗛𝗘 𝗦𝗔𝗡𝗡𝗗𝗔𝗡 ⚡](https://t.me/syrus_143_hpy)",
+                    text="My Lobe/Owner ❤️ [亗 𝗧𝗛𝗘 𝗦𝗔𝗡𝗡𝗗𝗔𝗡 ⚡](https://t.me/syrus_143_hpy)",
                     
                     reply_markup=InlineKeyboardMarkup(
                         [
